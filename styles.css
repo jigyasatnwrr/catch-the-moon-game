@@ -264,4 +264,47 @@ body {
     padding: 10px;
     font-weight: bolder;
 }
+@media (max-width: 480px) {
+    
+    .subtitle {
+        font-size: 2.5vw; 
+        margin-top: 3px    }
+    .glitch {
+        font-size: 10vw; 
+        padding-bottom: 0px; 
+    }
+    
+    #game-container {
+        width: 90%;
+        height: calc(100vh - 100px);
+        margin: 10px 0;
+    }
+
+    #moon, #bucket {
+        font-size: 25px;
+    }
+    .astronaut-icon img {
+        width: 70px;
+        height: 70px;
+        top: -100px;  
+    }
+
+    
+    #score {
+        font-size: 16px;
+    }
+
+    #start-button, #restart-button {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+
+
 
